@@ -1,5 +1,4 @@
-import bankp.bank;
-
+import bankp.Bank;
 class Shape {
     String color;
 
@@ -34,7 +33,7 @@ public class inheritance {
         // c1.showInfo();
         // Rectangle r1 = new Rectangle("Green");
         // r1.showInfo();
-        bank.Account a1 = new bank.Account();
+        Bank.Account a1 = new Bank.Account();
         a1.name = "John";
     }
 }
