@@ -1,5 +1,8 @@
 public class CommandLineArguments {
     public static void main(String args[]) {
+        System.out.println(" Java program to take input as a command line argument.");
+        System.out.println("********************************************************************");
+        System.out.println("Test case: \r\n" +"Input:  \r\n" + "Java Sample Lakshay  Kumar GEHU B.Tech 4th \r\n" + "Output: \r\n" + "Name:    Lakshay Kumar   \r\n" + "Course:  B.Tech    \r\n" + "UniversityRollNo: GEHU \r\n" + "Semester: 4th ");
         if (args.length < 4) {
             System.out.println("Usage: java CommandLineArguments <name> <course>        <roll_number> <semester>");
             return;
