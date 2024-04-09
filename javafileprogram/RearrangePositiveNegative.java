@@ -1,4 +1,3 @@
-import java.lang.*;
 import java.util.Scanner;
 
 public class RearrangePositiveNegative {
@@ -19,6 +18,9 @@ public class RearrangePositiveNegative {
     }
 
     public static void main(String[] args) {
+        System.out.println(" problem to rearrange positive and negative numbers in an array .");
+        System.out.println("Example: Input: 1 -2 3 -4 5 -6 7 -8 9 -10");
+        System.out.println("Output: -2 -4 -6 -8 -10 1 3 5 7 9");
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the array elements separated by space:");

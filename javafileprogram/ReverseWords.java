@@ -22,6 +22,9 @@ public class ReverseWords {
     }
 
     public static void main(String[] args) {
+
+        System.out.println(" Java program to reverse each word of string."); 
+        System.out.println("e.g. Input- I love my India Output – I evol ym aidnI)");
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the string: ");

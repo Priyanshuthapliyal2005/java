@@ -1,6 +1,4 @@
-import java.lang.*;
 import java.util.Scanner;
-
 public class FriendlyPairCheck {
     public static int divisorSum(int n) {
         int sum = 0;
@@ -23,6 +21,8 @@ public class FriendlyPairCheck {
     }
 
     public static void main(String[] args) {
+        System.out.println(" Friendly Pair are two or more numbers with a common abundance.");
+        System.out.println("Example: (220, 284) is a friendly pair.");
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");

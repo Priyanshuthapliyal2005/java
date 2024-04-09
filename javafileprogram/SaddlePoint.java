@@ -35,6 +35,13 @@ public class SaddlePoint {
     }
 
     public static void main(String[] args) {
+        System.out.println("Program to find the saddle point coordinates in a given matrix.");
+        System.out.println("A saddle point is an element in the matrix such that it is the minimum element in its row and maximum element in its column.");
+        System.out.println("Example: In the matrix below, 7 is a saddle point at (2, 0).");
+        System.out.println("1 2 3");
+        System.out.println("4 5 6");
+        System.out.println("7 8 9");
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the number of rows: ");
