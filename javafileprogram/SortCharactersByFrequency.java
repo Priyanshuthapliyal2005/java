@@ -27,7 +27,8 @@ public class SortCharactersByFrequency {
 
     public static void main(String[] args) {
         System.out.println("Program to sort characters of a given string s, sort it in decreasing order based on ");
-        System.out.println("The frequency of the characters. The frequency of a character is the number of times it appears in the string . ");
+        System.out.println(
+                "The frequency of the characters. The frequency of a character is the number of times it appears in the string . ");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the string: ");
         String input = scanner.nextLine();
@@ -41,4 +42,3 @@ public class SortCharactersByFrequency {
         System.out.println("\n");
     }
 }
-
